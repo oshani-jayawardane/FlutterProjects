@@ -1,6 +1,10 @@
 # FlutterProjects
 All the Flutter Projects detailed out
 
+Course: https://www.udemy.com/course/flutter-bootcamp-with-dart/ <br />
+Course Resources: https://github.com/londonappbrewery/Flutter-Course-Resources <br />
+Course Troubleshooting: https://github.com/DetainedDeveloper/App-Brewery-Flutter-Null-Safety <br />
+
 ### important links
 
 Design Widget tree: https://app.diagrams.net/  <br /> 
