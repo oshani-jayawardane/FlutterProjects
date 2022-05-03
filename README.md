@@ -8,6 +8,12 @@ Flutter Documentations - https://api.flutter.dev/flutter/material/material-libra
 Free icons: https://icons8.com/  <br /> 
 Free vector images: https://www.vecteezy.com/  <br /> 
 
+### adding own images to Flutter
+
+add a new directory – images <br />
+edit **pubspec.yaml** file – assets <br />
+**YAML** is a data serialization language that is often used for writing configuration files. <br />
+
 ### changing icon image
 
 convert image using: appicon.co <br /><br />
