@@ -14,6 +14,7 @@ Material Design for Flutter: https://material.io/components?platform=flutter <br
 Material color palette and icons: https://www.materialpalette.com/ <br />
 Flutter Design icons class: https://api.flutter.dev/flutter/material/Icons-class.html <br />
 
+App icon generator: https://appicon.co/
 Free icons: https://icons8.com/  <br /> 
 Free vector images: https://www.vecteezy.com/  <br /> 
 
