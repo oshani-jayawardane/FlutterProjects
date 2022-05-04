@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              // avatar
               const CircleAvatar(
                 radius: 50.0,
                 backgroundImage: AssetImage('images/me.jpeg'),
@@ -26,18 +27,107 @@ class MyApp extends StatelessWidget {
               ),
               const SizedBox(
                 height: 30.0,
-              )
+              ),
+              // name
               const Text(
                 'Oshani Jayawardane',
                 style: TextStyle(
+                  fontFamily: 'Lato',
                   fontSize: 30.0,
                   color: Colors.white,
-                  fontWeight: FontWeight.bold,
+                  fontWeight: FontWeight.w700,
                 ),
               ),
+              // designation
+              Text(
+                'SOFTWARE ENGINEER',
+                style: TextStyle(
+                  fontFamily: 'Roboto',
+                  fontSize: 16.0,
+                  color: Colors.red.shade100,
+                  fontWeight: FontWeight.w300,
+                  letterSpacing: 2.5,
+                  height: 2.5,
+                ),
+              ),
+
+              // phone number
+              // Earlier we wrapped this around a container -> but there's a much nicer class 'Card'
+              const Card(
+                // but card does not have padding - we have to use a padding class -> wrap content (in this case the row) in the padding class
+                // color: Colors.white, (cards by default is white)
+                margin: EdgeInsets.fromLTRB(30.0, 50.0, 30.0, 10.0),
+
+                // child: Padding(
+                //   padding: EdgeInsets.all(10.0),
+                // child: Row(
+                //   mainAxisAlignment: MainAxisAlignment.center,
+                //   children: [
+                //     Icon(
+                //       Icons.phone,
+                //       color: Colors.redAccent,
+                //       size: 30.0,
+                //     ),
+                //     SizedBox(
+                //       width: 30.0,
+                //     ),
+                //     Text(
+                //       '+94 70 311 8874',
+                //       style: TextStyle(
+                //         fontSize: 16.0,
+                //         fontWeight: FontWeight.bold,
+                //         fontFamily: 'Lato',
+                //         color: Colors.redAccent,
+                //       ),
+                //     ),
+                //   ],
+                // ),
+
+                // can use ListTile Class instead
+
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
+                    color: Colors.redAccent,
+                  ),
+                  title: Text(
+                    '+94 70 311 8874',
+                    style: TextStyle(
+                      fontSize: 16.0,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: 'Lato',
+                      color: Colors.redAccent,
+                    ),
+                  ),
+                ),
+              ),
+
+              // email
+              const Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30.0),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.email,
+                    color: Colors.redAccent,
+                    size: 30.0,
+                  ),
+                  title: Text(
+                    'oshani.jayawardane@gmail.com',
+                    style: TextStyle(
+                      fontSize: 16.0,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: 'Lato',
+                      color: Colors.redAccent,
+                    ),
+                  ),
+                ),
+              ),
+
+              // stretch
               Container(
                 width: double.infinity,
-              )
+              ),
             ],
           ),
         ),
