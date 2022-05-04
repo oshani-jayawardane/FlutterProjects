@@ -37,6 +37,13 @@ convert image using: appicon.co <br /><br />
 
 1. For **Android** - settings – about phone – build number – tap tap tap – enter developer mode – go to developer options – enable usb debugging <br />
 
+### enabling hot reload
+we need to have a stateless widget
+  1. type "stless" for short
+  2. enter (creates a boilerplate)
+  3. give the class a name
+  4. copy matreialApp inside the stateless widget's return statement 
+  5. in runApp() in main -> type the name of the class you gave
 
 ## Lesson 1 - Flutter Basic App
 App that says Hello world
