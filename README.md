@@ -45,7 +45,7 @@ App that says Hello world
 App that displays a diamond
 
 ## Lesson 3 - MiCard (Personal Business Card App)
-Cloning a repository: <br />
+## Cloning a repository: <br />
   1. Copy github URL <br />
   2. In Android studio - File -> New -> Project from version control -> Git -> Copy URL <br />
   3. Select directory -> clone <br />
