@@ -11,6 +11,7 @@ Design Widget tree: https://app.diagrams.net/  <br />
 Flutter Documentations - https://api.flutter.dev/flutter/material/material-library.html  <br /> 
 Free icons: https://icons8.com/  <br /> 
 Free vector images: https://www.vecteezy.com/  <br /> 
+Flutter layout cheat sheet: https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e <br /> 
 
 ### adding own images to Flutter
 
