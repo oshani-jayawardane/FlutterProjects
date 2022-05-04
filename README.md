@@ -13,6 +13,10 @@ Free icons: https://icons8.com/  <br />
 Free vector images: https://www.vecteezy.com/  <br /> 
 Flutter layout cheat sheet: https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e <br /> 
 
+### useful shortcuts
+alt + enter -> instant wrappers etc
+ctrl + Q -> Quick docs
+
 ### adding own images to Flutter
 
 add a new directory – images <br />
