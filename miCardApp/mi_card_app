@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
             children: [
               // avatar
               const CircleAvatar(
-                radius: 50.0,
+                radius: 60.0,
                 backgroundImage: AssetImage('images/me.jpeg'),
                 backgroundColor: Colors.white,
               ),
@@ -51,12 +51,21 @@ class MyApp extends StatelessWidget {
                 ),
               ),
 
+              SizedBox(
+                height: 50.0,
+                width: 250.0,
+                child: Divider(
+                  color: Colors.red.shade100,
+                  thickness: 1.0,
+                ),
+              ),
+
               // phone number
               // Earlier we wrapped this around a container -> but there's a much nicer class 'Card'
               const Card(
                 // but card does not have padding - we have to use a padding class -> wrap content (in this case the row) in the padding class
                 // color: Colors.white, (cards by default is white)
-                margin: EdgeInsets.fromLTRB(30.0, 50.0, 30.0, 10.0),
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 30.0),
 
                 // child: Padding(
                 //   padding: EdgeInsets.all(10.0),
@@ -135,4 +144,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
