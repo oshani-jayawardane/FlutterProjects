@@ -64,3 +64,19 @@ App that displays a diamond
   3. Select directory -> clone <br />
   4. red lines on main.dart -> pubspec.yaml -> get dependencies <br />
 
+### containers
+containers are single-child layout widgets (refer documentation) <br />
+container takes the size of the child content <br />
+to wrap container in safe area of the phone -> alt + enter -> wrap in widget -> safeArea <br />
+
+inspect -> flutter inspector <br /><br />
+
+different ways of setting margins <br />
+  1. margin: EdgeInsets.all(50.0),
+  2. margin: EdgeInsets.symmetric(vertical: 50.0, horizontal: 20.0),
+  3. margin: EdgeInsets.fromLTRB(10.0, 20.0, 30.0, 40.0),
+  4. margin: const EdgeInsets.only(left: 30),
+
+Same with paddings <br />
+
+
