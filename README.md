@@ -37,6 +37,12 @@ convert image using: appicon.co <br /><br />
 
 1. For **Android** - settings – about phone – build number – tap tap tap – enter developer mode – go to developer options – enable usb debugging <br />
 
+## Hot reload
+  doesn't change the state of the app (ex: input data)
+
+## Hot Restart
+  changes the state of the app and restarts 
+
 ### enabling hot reload
 we need to have a stateless widget
   1. type "stless" for short
