@@ -16,6 +16,9 @@ Free vector images: https://www.vecteezy.com/  <br />
 
 add a new directory – images <br />
 edit **pubspec.yaml** file – assets <br />
+recorrect indentation - indent 2 spaces !!!important <br />
+pub get <br />
+<br />
 **YAML** is a data serialization language that is often used for writing configuration files. <br />
 
 ### changing icon image
