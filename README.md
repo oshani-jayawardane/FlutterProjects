@@ -91,4 +91,7 @@ different ways of setting margins <br />
 
 Same with paddings <br />
 
+## Lesson 4 - Dicee App
 
+Functions - creating and calling functions
+() { // something }; is an anonymous function
