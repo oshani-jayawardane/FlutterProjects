@@ -110,3 +110,7 @@ Expanded class -> fills the width or height of the device depending on the orien
 TextButton -> onpressed() {\\ do something - better to write in a function} <br />
 |_ child -> whatever text / image to be pressed <br />
 
+## Lesson 5 - Xylophone App
+
+Flutter packages - https://pub.dev/packages?q=sdk%3Aflutter <br />
+install and import packages and access them <br />
