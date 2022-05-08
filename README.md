@@ -32,6 +32,12 @@ recorrect indentation - indent 2 spaces !!!important <br />
 pub get <br />
 <br />
 **YAML** is a data serialization language that is often used for writing configuration files. <br />
+<br />
+**Image.asset('images/dice1.png'),** <br /><br />
+// above is a much more convenient way to specify asset images - (refer documentation) than, <br />
+**Image(** <br />
+  **image: AssetImage('images/dice1.png'),** <br />
+ **),** <br />
 
 ### changing icon image
 
@@ -93,5 +99,14 @@ Same with paddings <br />
 
 ## Lesson 4 - Dicee App
 
-Functions - creating and calling functions
-() { // something }; is an anonymous function
+Functions - creating and calling functions <br />
+() { // something }; is an anonymous function <br />
+<br />
+Stateless widget -> responds to no state change <br />
+Stateful widget -> responds to state changes <br />
+<br />
+**important** -> define variables outside the widget build -> not subjected to hot reload always <br />
+Expanded class -> fills the width or height of the device depending on the orientation <br />
+TextButton -> onpressed() {\\ do something - better to write in a function} <br />
+|_ child -> whatever text / image to be pressed <br />
+
