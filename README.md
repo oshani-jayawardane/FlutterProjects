@@ -18,6 +18,8 @@ App icon generator: https://appicon.co/ <br />
 Free icons: https://icons8.com/  <br /> 
 Free vector images: https://www.vecteezy.com/  <br /> 
 
+Free sounds: https://freesound.org/ <br /> 
+
 Flutter layout cheat sheet: https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e <br /> 
 
 ### useful shortcuts
