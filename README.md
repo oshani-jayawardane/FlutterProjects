@@ -116,3 +116,8 @@ TextButton -> onpressed() {\\ do something - better to write in a function} <br 
 
 Flutter packages - https://pub.dev/packages?q=sdk%3Aflutter <br />
 install and import packages and access them <br />
+
+## Lesson 6 - Quizzler App
+
+//TODO: something <br />
+Lists - like arrays <br />
