@@ -122,4 +122,9 @@ install and import packages and access them <br />
 //TODO: something <br />
 Lists - like arrays <br />
 List<dataType> ListName = [item1, item2, item3]; <br />
-Classes in dart -> lib -> right click -> new dart file -> "filename.dart" 
+Classes in dart -> lib -> right click -> new dart file -> "filename.dart" <br /><br />
+**The Four Pillars of Object-Oriented Programming** <br />
+1. Abstraction <br />
+2. Encapsulation. <br />
+3. Inheritance. <br />
+4. Polymorphism. <br />
