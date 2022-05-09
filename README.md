@@ -121,3 +121,4 @@ install and import packages and access them <br />
 
 //TODO: something <br />
 Lists - like arrays <br />
+List<dataType> ListName = [item1, item2, item3];
