@@ -121,4 +121,5 @@ install and import packages and access them <br />
 
 //TODO: something <br />
 Lists - like arrays <br />
-List<dataType> ListName = [item1, item2, item3];
+List<dataType> ListName = [item1, item2, item3]; <br />
+Classes in dart -> lib -> right click -> new dart file -> "filename.dart" 
