@@ -128,3 +128,50 @@ Classes in dart -> lib -> right click -> new dart file -> "filename.dart" <br />
 2. Encapsulation. <br />
 3. Inheritance. <br />
 4. Polymorphism. <br />
+ 
+```
+void main() {
+
+ Car myNormalCar = Car();
+ print(myNormalCar.numberOfSeats);
+ myNormalCar.drive();
+ 
+ // inheritance
+ ElectricCar myTesla = ElectricCar();
+ myTesla.drive();
+ myTesla.recharge
+ 
+ // polymorphism
+ LevitatingCar myMagLev = LevitatingCar();
+ myMagLev.drive();
+
+}
+ 
+class Car {
+ 
+ int numberOfSeats = 5;
+ 
+ void drive(){
+  print('wheels turn');
+ }
+
+}
+ 
+class ElectricCar extends Car {
+
+ int batteryLevel = 100;
+ 
+ void recharge() {
+  batteryLevel = 100;
+ }
+ 
+}
+ 
+class LevitatingCar extends Car {
+
+ @override
+ void drive() {
+  print('glide forward');
+ }
+}
+```
