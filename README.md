@@ -195,3 +195,33 @@ class SelfDrivingCar extends Car {
   }
 }
 ```
+ 
+**Dart Constructors**
+
+ ```
+ void main() {
+  
+  Human jenny = Human(height: 15, weight: 3.5);
+  print(jenny.height);
+  
+  Human james = Human(height: 20, weight: 4.2);
+  print(james.height);
+  
+}
+
+class Human {
+  
+  double height = 0;
+  double weight = 0;
+  
+//   Human({double height = 0, double weight = 0}) {
+//     this.height = height;
+//     this.weight = weight;
+//   }
+  
+//   if we say height = height dart will get confused
+  
+  Human({this.height = 0, this.weight = 0});
+  
+}
+ ```
