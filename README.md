@@ -139,11 +139,14 @@ void main() {
  // inheritance
  ElectricCar myTesla = ElectricCar();
  myTesla.drive();
- myTesla.recharge
+ myTesla.recharge();
  
  // polymorphism
  LevitatingCar myMagLev = LevitatingCar();
  myMagLev.drive();
+  
+ SelfDrivingCar myWaymo = SelfDrivingCar('1 Hacker Way');
+ myWaymo.drive();
 
 }
  
@@ -173,5 +176,22 @@ class LevitatingCar extends Car {
  void drive() {
   print('glide forward');
  }
+}
+
+class SelfDrivingCar extends Car {
+  
+  String destination = '';
+  
+  // constructor
+  SelfDrivingCar(String userSetDestination) {
+    destination = userSetDestination;
+  }
+  
+  // when we need to inherit the method from parent (super class) but also need to add to it
+  @override
+  void drive() {
+    super.drive();
+    print('sterring towards $destination');
+  }
 }
 ```
