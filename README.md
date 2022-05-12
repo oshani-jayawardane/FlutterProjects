@@ -228,3 +228,8 @@ class Human {
   
 }
  ```
+
+ ## Lesson 7 - BMI calc
+ 
+ making classes with repetitive code instantly - flutter outline -> widget -> right click -> extract widget -> rename
+ when to use keys - https://www.youtube.com/watch?v=kn0EOS-ZiIc
