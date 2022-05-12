@@ -231,5 +231,9 @@ class Human {
 
  ## Lesson 7 - BMI calc
  
- making classes with repetitive code instantly - flutter outline -> widget -> right click -> extract widget -> rename
- when to use keys - https://www.youtube.com/watch?v=kn0EOS-ZiIc
+ making classes with repetitive code instantly - flutter outline -> widget -> right click -> extract widget -> rename <br />
+ when to use keys - https://www.youtube.com/watch?v=kn0EOS-ZiIc <br />
+ <br />
+ **const vs final** <br />
+const - can't change anywhere else or change be changed in run time either.  <br />
+ final - can be changed in run time. ex: DateTime.now() can't be assigned to const but can be assigned to final <br />
