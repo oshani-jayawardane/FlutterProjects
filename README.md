@@ -10,6 +10,9 @@ Course Troubleshooting: https://github.com/DetainedDeveloper/App-Brewery-Flutter
 Design Widget tree: https://app.diagrams.net/  <br /> 
 Flutter Documentations - https://api.flutter.dev/flutter/material/material-library.html  <br /> 
 
+Flutter Theme data - https://api.flutter.dev/flutter/material/ThemeData-class.html <br />
+Flutter cookbook - https://docs.flutter.dev/cookbook <br />
+
 Material Design for Flutter: https://material.io/components?platform=flutter <br />
 Material color palette and icons: https://www.materialpalette.com/ <br />
 Flutter Design icons class: https://api.flutter.dev/flutter/material/Icons-class.html <br />
