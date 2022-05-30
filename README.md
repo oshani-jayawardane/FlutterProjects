@@ -264,3 +264,35 @@ enum CarType{
     coupe,
   }
  ```
+ 
+ **FUNCTIONS AS FIRST ORDER OBJECTS**
+ 
+ ```
+ void main(){
+  
+  Car myCar = Car(drive: slowDrive);
+  print(myCar.drive);
+  myCar.drive();
+  
+  myCar.drive = fastDrive;
+  print(myCar.drive);
+  myCar.drive();
+  
+  
+}
+
+class Car {
+  
+  Car({required this.drive});
+  
+  Function drive;
+}
+  
+  void slowDrive(){
+    print('Driving slowly.');
+  }
+  
+  void fastDrive(){
+    print('Driving super fast.');
+  }
+ ```
