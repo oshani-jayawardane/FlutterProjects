@@ -237,3 +237,30 @@ class Human {
  **const vs final** <br />
 const - can't change anywhere else or change be changed in run time either.  <br />
  final - can be changed in run time. ex: DateTime.now() can't be assigned to const but can be assigned to final <br />
+
+ ** ENUMS **
+  ```
+ void main(){
+  
+  Car myCar = Car(carStyle: CarType.SUV);
+  print(myCar);
+  
+  
+}
+
+class Car {
+  
+  CarType carStyle;
+  
+  Car({this.carStyle = CarType.sedan});
+  
+}
+
+enum CarType{
+    sedan,
+    conertible,
+    SUV,
+    hatchback,
+    coupe,
+  }
+ ```
