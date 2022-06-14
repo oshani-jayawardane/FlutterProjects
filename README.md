@@ -22,7 +22,12 @@ Free icons: https://icons8.com/  <br />
 Free vector images: https://www.vecteezy.com/  <br /> 
 
 Free sounds: https://freesound.org/ <br /> 
-weather data: https://openweathermap.org/ <br /> 
+weather data: https://openweathermap.org/ <br /> <br /> 
+
+flutter packages: <br /> 
+Geolocator - location data <br /> 
+fluuer_spinkit - loading animations <br /> 
+http - networking package <br /> 
 
 Flutter layout cheat sheet: https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e <br /> 
 
